@@ -1,0 +1,22 @@
+.song-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background: rgb(247, 245, 245);
+}
+.song-item-text{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.song-item-text h3{
+  font-size: max(1.8vw, 18px);
+  font-weight: 580;
+}
+.song-item-icon img{
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}

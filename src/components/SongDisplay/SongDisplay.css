@@ -1,0 +1,16 @@
+.song-display{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.song-display h2{
+  font-size: max(2vw, 24px);
+  color: #49557e;
+  font-weight: 600;
+}
+.song-display-list{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

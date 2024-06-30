@@ -1,0 +1,49 @@
+
+.navbar{
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  height: 120px;
+  width: 120px;
+}
+.navbar-menu{
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  gap: 20px;
+  color: #49557e;
+}
+.navbar-menu li{
+  cursor: pointer;
+}
+.navbar_right{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar_right input{
+  padding: 10px 15px;
+  outline: #67F1FA;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.signin_btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #67F1FA;
+  background: transparent;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.signin_btn:hover{
+  background-color: #f6fbfa;
+}
+.navbar .active{
+  padding-bottom: 8px;
+  border-bottom: 2px solid #67F1FA;
+}

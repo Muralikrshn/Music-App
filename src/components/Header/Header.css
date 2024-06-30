@@ -1,0 +1,35 @@
+.header{
+  height: 34vw;
+  margin: 30px auto;
+  background: url("/home_page_bg_image.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px;
+}
+.header-content{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 50%;
+  bottom: 20%;
+  left: 6vw;
+  animation: fadeIn 3s;
+}
+.header-content h2{
+  font-size: 4.6vw;
+  color: white;
+  font-weight: 500;
+}
+.header-content p{
+  font-size: 1.2vw;
+  color: white;
+}
+.header-content button{
+  padding: 1vw 2.3vw;
+  font-size: max(1.2vw, 13px);
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+}
